@@ -1,6 +1,7 @@
+#!/usr/bin/env python3 
+
 # @author: n3xtd00rpanda was here ***
 
-# #!/usr/bin/env python3 
 from fileinput import filename
 import os, subprocess, shutil, sys
 from re import search
