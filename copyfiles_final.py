@@ -15,7 +15,7 @@ def fileCopy(nwd):
         full_file_path = os.getcwd() + "/" + file_name + file_extension
         new_file_path = nwd + file_name + file_extension
         subs = ".git"
-        if file_name.find(".git") == -1 and file_extension != ".git" and os.path.isfile(full_file_path) and file_name != "wp_config" and file_name != "copyfiles_nogitignore":
+        if file_name.find(".git") == -1 and file_extension != ".git" and os.path.isfile(full_file_path) and file_name != "wp_config" and file_name != "copyfiles_final":
             print("Copying from: ", full_file_path)
             print("Copying to: ", new_file_path)
             shutil.copyfile(full_file_path, new_file_path)
